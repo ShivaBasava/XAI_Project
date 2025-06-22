@@ -19,8 +19,9 @@ install python packages:
 pip install -r /requirements.txt
 ]
 
-# [3] load a pre-trained model and fine-tune as per the dataset
-- [i] defined a "TumorDataset" class for the easy of data load [data_preprocession.py]
+# [3] load a pre-trained model and fine-tune as per the dataset 
+    [ here in the repo dataset "data_pancreas/", is not uploaded]
+- [i] defined a "TumorDataset" class for the easy of data load [data_preparation.py]
 - [ii] to train model, consuming : Wide Residual Networks - wide_resnet50_2 [train_model.py]
 
 # [4] XAI Methods [xai_methods.ipynb]
