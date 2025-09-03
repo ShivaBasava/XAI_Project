@@ -27,4 +27,13 @@ pip install -r /requirements.txt
 # [4] XAI Methods [xai_methods.ipynb]
 - upon fine-tuned model, we'll start to explain how the model is predicting case for the specified task. 
 - Following XAI methods consumed for the explaination of the fine-tuned model:
-    -
+        - Integrated Gradients
+        - LIME
+        - Grad-CAM
+        
+(- The Jupyter notebook [ pancreas_xai_methods.ipynb ] file contains all the sub-files of the project as cells:
+    - data_preparation
+    - model
+    - train and fine-tune model
+    - respective xai methods implementaion
+)
